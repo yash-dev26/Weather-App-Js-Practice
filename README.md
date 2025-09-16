@@ -23,11 +23,9 @@ This project is created for **learning and practicing JavaScript fundamentals**:
 - Weather details: temperature, description, feels like, humidity, wind speed, pressure
 - Weather icons from OpenWeatherMap
 
-## 🚀 How to Run
+## 🚀 Demo Link
 
-1. Download or clone this repository
-2. Open `index.html` in your browser
-3. Start searching for cities!
+https://yash-dev26.github.io/Weather-App-Js-Practice/
 
 ## 🛠️ Technologies Used
 
