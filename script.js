@@ -99,6 +99,13 @@ function renderWeather(city){
     weatherContent.appendChild(weatherDetails);
 
     document.querySelector(".weather-container").appendChild(weatherContent);
+    })
+    .catch((err)=>{
+    console.log(err);
+    let errMsg = document.createElement("div");
+    errMsg.classList.add("weather-content");
+    errMsg.textContent = "City not found";
+    document.querySelector(".weather-container").appendChild(errMsg);
     });
 }
 
@@ -113,4 +120,5 @@ document.querySelector(".search-box")
   // console.log(e.target.value);
   renderWeather(e.target.value);
   localStorage.setItem("cityName", e.target.value);
+
 });
